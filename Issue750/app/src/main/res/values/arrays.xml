@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_750" formatted="false">
+        <item>&lt;g id="issue_750">%s&lt;/g> and &lt;g id="issue_750b">%s&lt;/g> foo</item>
+        <item>&lt;g id=\"issue_750\">%s&lt;/g> and &lt;g id=\"issue_750b\">%s&lt;/g> foo</item>
+        <item>"%1$s and %2$s sent you cash"</item>
+    </string-array>
+</resources>

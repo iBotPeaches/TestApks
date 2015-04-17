@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Issue636</string>
+    <string name="authority1">com.ibotpeaches.issue636.Provider</string>
+    <string name="authority2">com.ibotpeaches.issue636.ProviderTwo</string>
+</resources>
