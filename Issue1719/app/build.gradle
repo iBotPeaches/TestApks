@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+apply plugin: 'AndResGuard'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.ibotpeaches.issue1719"
+        minSdkVersion 27
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+andResGuard {
+    mappingFile = null
+    use7zip = true
+    useSign = true
+
+    whiteList = [
+            "R.drawable.icon",
+    ]
+    compressFilePattern = [
+            "*.png",
+            "*.jpg",
+            "*.jpeg",
+            "*.gif",
+            "resources.arsc"
+    ]
+    sevenzip {
+        artifact = 'com.tencent.mm:SevenZip:1.2.11'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
