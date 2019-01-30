@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="test_string_array">
+        <item>String A</item>
+        <item>String B</item>
+        <item>String C</item>
+        <item>String D</item>
+        <item>String E</item>
+    </string-array>
+
+    <array name="test_array">
+        <item>12</item>
+        <item>String!</item>
+        <item>1234</item>
+        <item>@color/colorPrimary</item>
+    </array>
+
+</resources>
