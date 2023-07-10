@@ -30,6 +30,7 @@ proguard/
 /*/.idea/
 /*/.idea/*
 *.iml
+.idea/*
 
 # Tmp Files
 *~
