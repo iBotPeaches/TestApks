@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="my_enum_attr">
+        <enum name="value1" value="1" />
+        <enum name="value2" value="2" />
+        <enum name="value3" value="3" />
+    </attr>
+    <declare-styleable name="MyCustomView">
+        <attr name="my_enum_attr" />
+        <attr name="android:gravity" />
+    </declare-styleable>
+</resources>
