@@ -1,0 +1,3 @@
+<resources>
+    <attr name="is_obfuscated" format="boolean" />
+</resources>
